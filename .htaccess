@@ -1,0 +1,29 @@
+RewriteEngine on
+Options +FollowSymlinks
+RewriteBase /
+
+RewriteRule ^Zapravka$ zapravka.php?page_id=47 [NC,L]
+
+RewriteRule ^zapravka-kartridgey.html$ zapravka.php?page_id=47 [NC,L]
+
+RewriteRule ^zapravka-kartridgey-([A-Za-z]+).html?$ zapravka.php?brand=$1 [NC,L]
+RewriteRule ^zapravka-cvetnyh-kartridgey-([A-Za-z]+).html?$ zapravka_cvetnyh.php?brand=$1 [NC,L]
+RewriteRule ^zapravka-i-vosstanovlenie-([-A-Za-z0-9]+).html?$ cartridge.php?cart_name=$1 [NC,L]
+
+RewriteRule ^.*/(printer)-([-A-Za-z0-9]+).html?$ $1.php?printer_id=$2 [NC,L]
+RewriteRule ^printery-([A-Za-z]+).html?$ printers.php?brand=$1 [NC,L]
+RewriteRule ^cvetniye-printery-([A-Za-z]+).html?$ printers_color.php?brand=$1 [NC,L]
+RewriteRule ^remont-printerov.html?$ printers.php?page_id=42 [NC,L]
+RewriteRule ^remont-komputerov.html?$ computers.php?page_id=46 [NC,L]
+
+RewriteRule ^nashi-koordinaty.html$ zapravka.php?page_id=63 [NC,L]
+
+RewriteRule ^news/([0-9]+)-.*\.html$ page.php?page_id=$1 [NC,L]
+RewriteRule ^corporation_news/([0-9]+)-.*\.html$ page.php?page_id=$1 [NC,L]
+RewriteRule ^advice/([0-9]+)-.*\.html$ page.php?page_id=$1 [NC,L]
+RewriteRule ^publication/([0-9]+)-.*\.html$ page.php?page_id=$1 [NC,L]
+
+RewriteRule ^(news).html$ page.php?page_cat=$1 [NC,L]
+RewriteRule ^(corporation_news).html$ page.php?page_cat=$1 [NC,L]
+RewriteRule ^(advice).html$ page.php?page_cat=$1 [NC,L]
+RewriteRule ^(publication).html$ page.php?page_cat=$1 [NC,L]

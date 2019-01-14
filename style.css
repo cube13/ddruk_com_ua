@@ -1,0 +1,59 @@
+/* Body */
+body                                      {background-color: #ffffff;
+                                           margin:0; padding-top:0; padding-bottom:0;
+                                           font-size:11px; color:#000;
+                                           font-family:Arial,Tahoma,Verdana, sans-serif;}
+
+
+/* Links */
+a:link,
+a:visited                                 {color:#090909; text-decoration:none;}
+a:hover                                   {color:#075674; text-decoration:underline;}
+a.cat:link,
+a.cat:visited                             {color:#075674; text-decoration:none;}
+a.cat:hover                               {color:#075674; text-decoration:underline;}
+a.blockmenu:link,
+a.blockmenu:visited                       {color:#303030; text-decoration:none; font:normal 13px Tahoma,Arial,sans-serif;
+                                           padding-left:5px; line-height:22px; display:block;
+                                           solid #acacac; background-color:#e7e7e7;}
+a.blockmenu:hover                         {color:#000; background-color:#e7e7e7; font:normal 13px tahoma,arial,sans-serif;
+                                           padding-left:5px; line-height:22px; display:block;
+                                           solid #acacac; text-decoration:underline;}
+a.linkbutton:link,
+a.linkbutton:visited                      {font-size:10px; color:#303030; text-decoration:none;
+                                           background-color:#F2F2F2; padding:2px 7px;}
+a.linkbutton:hover                        {font-size:10px; color:#000; text-decoration:none;
+                                           background-color:#E0E0E0; padding:2px 7px; font-weight:normal;}
+a.last:link,
+a.last:visited                            {color:#075674; text-decoration:none;}
+a.last:hover                              {color:#649BB5; text-decoration:underline;}
+a.load:link,
+a.load:visited                            {color:#fff; border:0; padding:3px 7px; cursor:pointer; font-size:11px; font-weight:bold; background:#08668A;}
+a.load:hover                              {color:#fff; border:0; padding:3px 7px; cursor:pointer; font-size:11px; font-weight:bold; background:#595959;}
+a.jump:link,
+a.jump:visited                            {color:#fff; border:0; padding:3px 7px; cursor:pointer; font-size:11px; font-weight:bold; background:#08668A;}
+a.jump:hover                              {color:#fff; border:0; padding:3px 7px; cursor:pointer; font-size:11px; font-weight:bold; background:#595959;}
+/* Pages */
+.pages                                    {margin:2px 0; padding:5px 10px; text-align:center;}
+.pagesempty                               {font-size:10px; color:#000; text-decoration:none;
+                                           background-color:#bbb; padding:2px 4px; font-weight:normal;}
+a.pages:link,
+a.pages:visited                           {font-size:10px; color:#202020; text-decoration:none;;
+                                           background-color:#fafafa; padding:2px 4px;}
+a.pages:hover                             {font-size:10px; color:#000; text-decoration:none;
+                                           background-color:#bbb; padding:2px 4px;}
+/* Table & Forms */
+table                                     {border:0px;}
+table,td,div                              {color:#ffffff; font:normal 11px Verdana,Arial,Tahoma, sans-serif;}
+textarea,input                            {font-size:11px;color:#202020; padding:0px 3px 2px 3px; font-family:Tahoma,Verdana,Arial sans-serif;border:1px solid #dad9d9;}
+select,option                             {font-size:10px;}
+blockquote                                {padding: 0 15 0 45; border:1px solid #dad9d9;
+                                           background:#fff url(../images/quote.gif) no-repeat top left;
+                                           margin-left:8px;
+                                           font-style:normal;}
+.phpcode                                  {text-align: left; padding: 15 15 15 65; border: 1px inset;
+                                           background: #E6E6E6 url(../images/code.gif) no-repeat top left;
+                                           margin-left: 8px;
+                                           font-style: normal;}
+.one                                      {background-color:#649BB5; color:#fff;}
+                   {padding:1px 8px 2px 8px;}
