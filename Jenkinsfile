@@ -21,6 +21,7 @@ pipeline {
   			slackSend color: "good", message: "Deploy start: ${env.JOB_NAME} started"
 			sh "rsync -rvae \"ssh -p2212 -i /home/deployer/.ssh/id_rsa\" /home/deployer/${env.JOB_NAME}/ deployer@138.68.59.63:/home/deployer/${env.JOB_NAME}"
   			slackSend color: "good", message: "Deploy: ${env.JOB_NAME} success"
+			}
 		}
 	}
 }
