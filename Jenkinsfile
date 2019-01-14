@@ -11,7 +11,7 @@ pipeline {
 		  	echo 'Hello'
 		  	sh 'cd /home/deployer/'
 		  	sh "git clone git@github.com:cube13/ddruk_com_ua.git ${env.JOB_NAME}"
-			sh "rsync -rvae \"ssh -p2212\" /home/deployer/${env.JOB_NAME}/ deployer@138.68.59.63:/home/deployer/${env.JOB_NAME}"
+			sh "rsync -rvae \"ssh -p2212\ -i /home/deployer/.ssh/id_rsa" /home/deployer/${env.JOB_NAME}/ deployer@138.68.59.63:/home/deployer/${env.JOB_NAME}"
 		  	outSh()
 		  	slackSend color: "good", message: "Build: ${env.JOB_NAME} with buildnumber ${env.BUILD_NUMBER} was successful"
 			}
