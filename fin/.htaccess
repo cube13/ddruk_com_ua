@@ -1,0 +1,4 @@
+AuthName "Nah-nah. Only for valid users"
+AuthType Basic
+AuthUserFile /var/www/ddruksite/htpass
+require valid-user

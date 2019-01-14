@@ -1,0 +1,548 @@
+/* Body */
+body                                      {background-color:#777777;
+                                           margin:0; padding-top:0; padding-bottom:0;
+                                           font-size:14px; color:#000000;
+                                           font-family:Arial,Tahoma, sans-serif;}
+/*Сылки в шапке*/
+
+a.topmenu:link,a.topmenu:visited,a.topmenu:hover
+{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color:#000000;
+    
+}
+
+a.in_menu_active:link,a.in_menu_active:visited,a.in_menu_active:hover
+{
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: normal;
+    color:#000000;
+    margin-bottom: 5px;
+    
+}
+
+
+a.left_menu:link,a.left_menu:visited
+{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: normal;
+    color:#000000;
+    
+}
+a.left_menu:hover
+{
+    font-size: 20px;
+    text-decoration: underline;
+    
+    font-weight: normal;
+    color:#000000;
+  
+    
+}
+
+a.news_block_title:link,a.news_block_title:visited,a.news_block_title:hover
+{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: normal;
+    color:#000000;
+    
+}
+
+.zaglav_w_line
+{
+    position: relative;
+    float: center;
+    text-align: left;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: white;
+    border-bottom: 4px solid #cccccc;
+    margin-top: 5px;
+    margin-right:  15px;
+    padding-left: 0px;
+    padding-bottom: 3px;
+    
+}
+
+.zaglav_w_line_r
+{
+    position: relative;
+    float: center;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    border-bottom: 3px solid #cccccc;
+    margin-top: 2px;
+    margin-right:  15px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.zaglav_w_line_page
+{
+    position: relative;
+    float: center;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    border-bottom: 4px solid #cccccc;
+    margin-top: 5px;
+    margin-right:  15px;
+    padding-left: 0px;
+    padding-bottom: 3px;
+    
+}
+
+.zaglav_wo_line
+{
+    position: relative;
+    float: center;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 5px;
+    margin-right:  15px;
+    padding-left: 0px;
+    padding-bottom: 3px;
+}
+
+td.news_small_pic
+{
+    padding: 10px;
+    vertical-align: middle;
+    background-color: white;
+    
+}
+td.news_text_preview
+{
+    padding-top: 5px;
+    padding-left: 0px;
+    margin-right: 15px;
+    vertical-align: top;
+    text-align: left;
+    background-color: white;
+    font-size: 12px;
+    border-bottom: 1px dotted #777777
+    
+}
+
+td.oglav_cart_print
+{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    
+     
+
+}
+
+p.block_news
+{
+    margin-left: 20px;
+    
+}
+
+#date_publication_preview
+{
+    font-size: 11px;
+}
+
+#top_info
+{
+    position: relative;
+    height: 115px;width: 100%;
+    background-color: white;
+}
+#logo
+{
+/*    border: 1px solid black;*/
+    float: left;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+#big_tel_num
+{
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    width: 280px;
+/*    border: 1px solid black;*/
+}
+#big_top_text
+{
+    font-size: 26px;
+    font-weight: bold;
+    float: left;
+    width: 200px;
+    
+/*    border: 1px solid black;*/
+}
+#small_top_text
+{
+    font-size: 20px;
+    font-weight: normal;
+    float: left;
+    width: 250px;
+    
+/*    border: 1px solid black;*/
+}
+
+
+#top_menu
+{
+    position: relative;
+    height: 50px;width: 100%; min-width: 1000px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    
+}
+div.lb
+{
+    background-color: white;
+    background: url('http://ddruk.com.ua/pic/lb1.jpg') no-repeat 100%;
+    width: 11px; height: 51px;
+    float: left;
+    position: relative;
+    
+}
+div.rb
+{
+    background-color: white;
+    background: url('http://ddruk.com.ua/pic/rb1.jpg') no-repeat 100%;
+    width: 11px; height: 51px;
+    float: left;
+    position: relative;
+}
+div.bottom
+{
+    float: left;
+    position: relative;
+text-align: center;
+width: 100%;
+font-size: 12px;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+#top_manu_back_grey
+{
+    background-color: #dddddd;
+    width: 215px; height: 50px;
+    text-align: center;
+     float: left;
+     
+/*    border-bottom: 1px solid black;*/
+    position: relative;
+/*    border-top:  2px solid #eeeeee;
+    border-right: 2px solid #eeeeee;
+    border-bottom:  2px solid #777777;
+    border-left: 2px solid #777777;*/
+    
+    border-radius:10px;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   -khtml-border-radius:10px;
+}
+
+#top_menu_back_white
+{
+    border-top: 1px solid black;
+    background: #ffffff;
+    width: 210px; height: 50px;
+    text-align: center;
+    float: left;
+    position: relative;
+
+    }
+
+#delimeter_top_menu
+{
+    
+    width: 7px;height: 50px;
+    float: left;
+    background: white;
+    position: relative;
+}
+
+
+
+#news_company
+{
+    position: relative;
+    width: 50%;
+    background-color: white;
+    float: left;
+    
+}
+#news_world
+{
+    position: relative;
+    width: 50%;
+    background-color: white;
+    float: right;
+ 
+}
+#publication
+{
+   position: relative;
+   float:right;
+   margin-bottom: 20px;
+}
+
+div.date_news_preview
+{
+    background-color: #cccccc;
+    font-size: 14px;
+    text-align: center;
+    padding: 2px 5px;
+    margin-bottom: 5px;
+}
+div.page_text
+{
+    font-size: 13px;
+    text-align: left;
+    width:90%;
+    margin-left: 40px;
+}
+
+
+div.right_block
+{
+/*    border: 1px solid black;*/
+    position: relative;
+    float:left;
+    background-color: white;
+    margin: 1px;
+    padding: 10px;
+    width:23.5%;min-width: 190px;
+     border-radius:10px;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   -khtml-border-radius:10px;
+   
+}div.right_block_cp
+{
+/*    border: 1px solid black;*/
+    position: relative;
+    float:left;
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    width:20.5%;min-width: 120px;
+     border-radius:10px;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   -khtml-border-radius:10px;
+   
+}
+div.left_menu_item
+{
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 15px;
+    
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    float: left;
+    background-color: #cccccc;
+    position: relative;
+    height: 20px; width:129px;
+}
+div.left_menu_item_reight_border
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 9px;
+    height: 20px;
+    background-color: #999999;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    float: left;
+    position: relative;
+}
+div.left_menu_item_active
+{
+    background-color: white;
+   border-top: 0px solid #555555;
+    border-bottom: 0px solid #555555;
+   border-left: 1px solid #555555;
+   padding-top: 5px;
+   padding-left: 15px;
+   height:75px;
+   width:175px;
+   position: relative;
+   float: left;
+   font-size: 20px;
+   font-weight: bold;
+   z-index: 1;
+}
+
+
+#content
+{
+    margin: 0px;
+    background-color: white;
+    width: 925px;
+    position: relative;
+    float: left;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    
+     border-bottom-left-radius:10px;
+     border-bottom-right-radius: 10px;
+     -webkit-border-bottom-left-radius: 10px;
+     -webkit-border-bottom-right-radius: 10px; 
+     -moz-border-bottom-left-radius:10px;
+     -moz-border-bottom-right-radius: 10px;
+     -khtml-border-bottom-left-radius:10px;
+     -khtml-border-bottom-right-radius: 10px;
+     
+    
+}
+#content_cp
+{
+    margin: 0px;
+    background-color: white;
+    width: 750px;
+    position: relative;
+    float: left;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    
+     border-bottom-left-radius:10px;
+     border-bottom-right-radius: 10px;
+     -webkit-border-bottom-left-radius: 10px;
+     -webkit-border-bottom-right-radius: 10px; 
+     -moz-border-bottom-left-radius:10px;
+     -moz-border-bottom-right-radius: 10px;
+     -khtml-border-bottom-left-radius:10px;
+     -khtml-border-bottom-right-radius: 10px;
+}
+#left_menu_item_active
+{
+    background-color: white;
+    height: 70px;
+/*    width: 120px;*/
+
+}
+#color
+{
+    float: right;
+    position: relative;
+}
+#printer_pic
+{
+    float: right;
+    position: relative;
+}
+#color_K
+{
+    background-color: black;
+    width: 15px; height: 15px;
+    float: right;
+    position: relative;
+    margin-right: 7px;
+}
+#color_Y
+{
+    background-color: yellow;
+    width: 15px; height: 15px;
+    float: right;
+    position: relative;
+    margin-right: 7px;
+}
+#color_C
+{
+    background-color: cyan;
+    width: 15px; height: 15px;
+    float: right;
+    position: relative;
+    margin-right: 7px;
+}
+#color_M
+{
+    background-color: magenta;
+    width: 15px; height: 15px;
+    float: right;
+    position: relative;
+    margin-right: 7px;
+}
+
+table.header
+{
+    background: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+td.page_title
+{
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+}
+th.uslugi_header
+{
+    text-align: left;
+    font-size: 16px;
+    background-color: #cccccc;
+    padding: 7px;
+}
+td.uslugi
+{
+    text-align: left;
+    font-size: 15px;
+    background-color: #dddddd;
+    padding: 7px;
+}
+
+td.value_bg_white
+{
+    
+    font-size: 13px;
+    background-color: white;
+    vertical-align: central;
+    
+}
+td.value_bg_grey
+{
+    
+    font-size: 13px;
+    background-color: #dddddd;
+    vertical-align: central;
+    
+}
+
+td.print_table
+{
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+div.price_zaglav
+{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
