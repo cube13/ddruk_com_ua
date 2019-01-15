@@ -21,22 +21,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Jenkinsfile" value="1" />
           <entry key="php" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JSON" value="1" />
           <entry key="PHP" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="5" />
+          <entry key="Jenkinsfile" value="4" />
+          <entry key="php" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="5" />
+          <entry key="JSON" value="4" />
+          <entry key="PHP" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -72,11 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/req/mysql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="405">
+              <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -92,6 +105,7 @@
         <option value="$PROJECT_DIR$/bottom.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/req/mysql.php" />
+        <option value="$PROJECT_DIR$/Jenkinsfile" />
       </list>
     </option>
   </component>
@@ -102,9 +116,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2132" />
-    <option name="width" value="1473" />
-    <option name="height" value="896" />
+    <option name="x" value="1987" />
+    <option name="width" value="1618" />
+    <option name="height" value="962" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -117,11 +131,6 @@
             <path>
               <item name="ddruk_com_ua" type="b2602c69:ProjectViewProjectNode" />
               <item name="ddruk_com_ua" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddruk_com_ua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddruk_com_ua" type="462c0819:PsiDirectoryNode" />
-              <item name="req" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,17 +182,18 @@
       <workItem from="1495033322907" duration="6000" />
       <workItem from="1503911672782" duration="32000" />
       <workItem from="1523021816328" duration="104000" />
-      <workItem from="1547544103490" duration="318000" />
+      <workItem from="1547544103490" duration="657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="897000" />
+    <option name="totallyTimeSpent" value="1236000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2132" y="0" width="1473" height="896" extended-state="0" />
+    <frame x="1987" y="0" width="1618" height="962" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1730904" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15712468" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -196,7 +206,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32898173" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3028846" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" order="10" weight="0.2892768" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -246,8 +256,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/req/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="405">
+          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
