@@ -11,7 +11,7 @@ pipeline {
   			slackSend color: "good", message: "Build start: ${env.GIT_BRANCH} started"
 		  	echo 'Hello'
 		  	sh 'cd /home/deployer/'
-			sh "pwd",
+			sh "pwd"
 	        echo $WORKSPACE
 		  	sh "git pull git@github.com:cube13/ddruk_com_ua.git"
 		  	slackSend color: "good", message: "Build: ${env.JOB_NAME} with buildnumber ${env.BUILD_NUMBER} was successful"
