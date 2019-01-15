@@ -4,7 +4,7 @@ class cls_mysql
 	var $sql_login="ddruk";
 	var $sql_pass="Baron_13";
 	var $sql_database="systema";
-	var $sql_host="localhost";
+	var $sql_host="138.68.59.63";
 	var $conn_id;
 	var $sql_query;
 	var $sql_err;

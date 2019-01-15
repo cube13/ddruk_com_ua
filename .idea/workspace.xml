@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daeeb476-7716-475b-b283-0dafb1d94d51" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/req/mysql.php" beforeDir="false" afterPath="$PROJECT_DIR$/req/mysql.php" afterDir="false" />
-    </list>
+    <list default="true" id="daeeb476-7716-475b-b283-0dafb1d94d51" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/req/mysql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="369">
               <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
@@ -175,18 +173,17 @@
       <workItem from="1495033322907" duration="6000" />
       <workItem from="1503911672782" duration="32000" />
       <workItem from="1523021816328" duration="104000" />
-      <workItem from="1547544103490" duration="67000" />
+      <workItem from="1547544103490" duration="318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="646000" />
+    <option name="totallyTimeSpent" value="897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2132" y="0" width="1473" height="896" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1730904" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1730904" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -199,7 +196,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32898173" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" order="10" weight="0.2892768" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -249,7 +246,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/req/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="369">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
