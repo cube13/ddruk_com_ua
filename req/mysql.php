@@ -9,7 +9,7 @@ class cls_mysql
 	var $sql_query;
 	var $sql_err;
 	var $sql_res;
-	
+
 	function sql_connect()
 	{
 		$this->conn_id=mysql_connect($this->sql_host,$this->sql_login,$this->sql_pass);
